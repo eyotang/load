@@ -5,15 +5,15 @@
 	of the Go structs.
 	Format characters (some characters like H have been reserved for future implementation of unsigned numbers):
 		? - bool, packed size 1 byte
-		h, H - int, packed size 2 bytes (in future it will support pack/unpack of int8, uint8 values)
-		i, I, l, L - int, packed size 4 bytes (in future it will support pack/unpack of int16, uint16, int32, uint32 values)
-		q, Q - int, packed size 8 bytes (in future it will support pack/unpack of int64, uint64 values)
+		h, H - int, packed size 2 bytes (in future it will support binarypack/unpack of int8, uint8 values)
+		i, I, l, L - int, packed size 4 bytes (in future it will support binarypack/unpack of int16, uint16, int32, uint32 values)
+		q, Q - int, packed size 8 bytes (in future it will support binarypack/unpack of int64, uint64 values)
 		f - float32, packed size 4 bytes
 		d - float64, packed size 8 bytes
-		Ns - string, packed size N bytes, N is a number of runes to pack/unpack
+		Ns - string, packed size N bytes, N is a number of runes to binarypack/unpack
 */
 
-package tcp
+package binarypack
 
 import (
 	"bytes"
@@ -37,7 +37,7 @@ func (bp *BinaryPack) Pack(format []string, msg []interface{}) (res []byte, err 
 	)
 
 	if formatLen(format) > len(msg) {
-		err = errors.New("Format is longer than values to pack")
+		err = errors.New("Format is longer than values to binarypack")
 		return
 	}
 

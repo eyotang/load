@@ -1,0 +1,61 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "+uvL6lrIFyv9OZ9OxIGBYR469eU=",
+			"path": "github.com/gopherjs/gopherjs/js",
+			"revision": "0210a2f0f73c96103378b0b935f39868e5731809",
+			"revisionTime": "2018-08-25T21:52:10Z"
+		},
+		{
+			"checksumSHA1": "zAYiCImp71kmsyPMbcaoc0cGT6k=",
+			"path": "github.com/jtolds/gls",
+			"revision": "77f18212c9c7edc9bd6a33d383a7b545ce62f064",
+			"revisionTime": "2017-05-03T22:40:06Z"
+		},
+		{
+			"checksumSHA1": "7UwX0gHWVH7OvdvLkQdAncvm9tk=",
+			"path": "github.com/pkg/errors",
+			"revision": "c059e472caf75dbe73903f6521a20abac245b17f",
+			"revisionTime": "2018-09-11T06:21:13Z"
+		},
+		{
+			"checksumSHA1": "kqdmxGYPrmCvWw05eyP1O+znK7c=",
+			"path": "github.com/smartystreets/assertions",
+			"revision": "7c9eb446e3cf06e83049467a5f25c38730ce7034",
+			"revisionTime": "2018-08-20T20:17:07Z"
+		},
+		{
+			"checksumSHA1": "bEq2actOyCy5xDJZryVU18ZNVTE=",
+			"path": "github.com/smartystreets/assertions/internal/go-render/render",
+			"revision": "7c9eb446e3cf06e83049467a5f25c38730ce7034",
+			"revisionTime": "2018-08-20T20:17:07Z"
+		},
+		{
+			"checksumSHA1": "/Mlt459vsuvFRHpxOiCNMasmE28=",
+			"path": "github.com/smartystreets/assertions/internal/oglematchers",
+			"revision": "7c9eb446e3cf06e83049467a5f25c38730ce7034",
+			"revisionTime": "2018-08-20T20:17:07Z"
+		},
+		{
+			"checksumSHA1": "hDSy/PFcjqOhKkUTtfjhbpJaUKI=",
+			"path": "github.com/smartystreets/goconvey/convey",
+			"revision": "ef6db91d284a0e7badaa1f0c404c30aa7dee3aed",
+			"revisionTime": "2018-02-22T19:45:00Z"
+		},
+		{
+			"checksumSHA1": "6hm9X0fDAe0Iyn/l1yVx3iImoSY=",
+			"path": "github.com/smartystreets/goconvey/convey/gotest",
+			"revision": "ef6db91d284a0e7badaa1f0c404c30aa7dee3aed",
+			"revisionTime": "2018-02-22T19:45:00Z"
+		},
+		{
+			"checksumSHA1": "t3Kpg1pgZfUHTYUVSisBrXyPNXc=",
+			"path": "github.com/smartystreets/goconvey/convey/reporting",
+			"revision": "ef6db91d284a0e7badaa1f0c404c30aa7dee3aed",
+			"revisionTime": "2018-02-22T19:45:00Z"
+		}
+	],
+	"rootPath": "github.com/eyotang/load"
+}
